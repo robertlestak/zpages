@@ -19,7 +19,7 @@ By default, `HTTPHandlers` will add the following routes to your HTTP handler.
 
 `/livez`: Liveness check for continual checking for uptime
 
-`/statusz`: Application status object containing arbitrary `map[string]interface{}` data supplied at start up. Defaults to include `VERSION` and `ENV` environment variables.
+`/statusz`: Application status object which returns the output of a first class function which returns `map[string]interface{}`. See language-specific package for configuration example.
 
 If you need to cusomize the endpoints or use a custom `http` library, the health check methods can be imported directly.
 
