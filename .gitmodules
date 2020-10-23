@@ -1,0 +1,6 @@
+[submodule "go-zpages"]
+	path = go-zpages
+	url = https://github.com/robertlestak/go-zpages.git
+[submodule "node-zpages"]
+	path = node-zpages
+	url = https://github.com/robertlestak/node-zpages.git
